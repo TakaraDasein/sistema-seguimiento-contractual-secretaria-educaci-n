@@ -1,0 +1,140 @@
+╔═══════════════════════════════════════════════════════════════════╗
+║                                                                   ║
+║     SISTEMA DE DOCUMENTACIÓN Y SEGUIMIENTO EDUCATIVO              ║
+║                    CREDENCIALES DE ACCESO                         ║
+║                                                                   ║
+╚═══════════════════════════════════════════════════════════════════╝
+
+┌─────────────────────────────────────────────────────────────────┐
+│  CREDENCIALES DE DEMOSTRACIÓN                                   │
+└─────────────────────────────────────────────────────────────────┘
+
+  Correo:     demostracion@sistema.edu
+  Contraseña: demo2026
+
+  ✓ Las credenciales están PRECARGADAS por defecto
+  ✓ Solo presionar "Iniciar Sesión" para acceder
+  ✓ Se muestran automáticamente en el formulario
+
+
+┌─────────────────────────────────────────────────────────────────┐
+│  INICIO RÁPIDO                                                  │
+└─────────────────────────────────────────────────────────────────┘
+
+  1. Instalar dependencias:
+     > pnpm install
+
+  2. Iniciar el sistema:
+     > pnpm dev
+
+  3. Abrir en navegador:
+     > http://localhost:3000
+
+  4. Las credenciales están PRECARGADAS
+     > Solo presiona "Iniciar Sesión"
+
+
+┌─────────────────────────────────────────────────────────────────┐
+│  DATOS DE PRUEBA INCLUIDOS                                      │
+└─────────────────────────────────────────────────────────────────┘
+
+  ✓ 10 Planes de Acción (distribuidos en 4 áreas)
+  ✓ 6 Documentos organizados en 6 carpetas
+  ✓ 8 Categorías de Lista de Chequeo
+  ✓ 24 Items de Chequeo con 24 Respuestas
+  ✓ 14 Actividades de Matriz de Seguimiento
+  ✓ 10 Registros Fotográficos detallados
+  ✓ 6 Áreas Educativas completas
+
+  Presupuesto Total: $180,500,000 COP
+  Avance Promedio: 53%
+  
+  ★ DATOS COMPLETOS Y REALISTAS  
+  ★ TODAS LAS ÁREAS CON INFORMACIÓN
+  ★ MATRIZ DE SEGUIMIENTO CONSOLIDADA
+
+
+┌─────────────────────────────────────────────────────────────────┐
+│  ÁREAS DISPONIBLES                                              │
+└─────────────────────────────────────────────────────────────────┘
+
+  1. Calidad Educativa
+  2. Inspección y Vigilancia
+  3. Cobertura e Infraestructura
+  4. Talento Humano
+  5. Planeación
+  6. Despacho
+
+
+┌─────────────────────────────────────────────────────────────────┐
+│  MODO ACTUAL DEL SISTEMA                                        │
+└─────────────────────────────────────────────────────────────────┘
+
+  Estado: MODO DEMOSTRACIÓN (Sin Supabase)
+  
+  ✓ No requiere base de datos
+  ✓ Datos de prueba cargados
+  ✓ Login con validación de credenciales
+  ✓ Todas las funcionalidades visuales activas
+  
+  ⚠ Los cambios NO se guardan entre sesiones
+  ⚠ Solo funciona con las credenciales especificadas
+
+
+┌─────────────────────────────────────────────────────────────────┐
+│  CONFIGURACIÓN                                                  │
+└─────────────────────────────────────────────────────────────────┘
+
+  Archivo: lib/config.ts
+  
+  Modo Demostración (actual):
+    USE_SUPABASE = false
+  
+  Para cambiar a Supabase:
+    USE_SUPABASE = true
+    (requiere configurar variables de entorno)
+
+
+┌─────────────────────────────────────────────────────────────────┐
+│  DOCUMENTACIÓN                                                  │
+└─────────────────────────────────────────────────────────────────┘
+
+  README.md          - Guía principal del sistema
+  MODO_OFFLINE.md    - Detalles del modo sin Supabase
+  DATOS_PRUEBA.md    - Información de datos de ejemplo
+
+  Código fuente de datos:
+  lib/datos-prueba.ts
+
+
+┌─────────────────────────────────────────────────────────────────┐
+│  ELIMINAR DATOS DE PRUEBA                                       │
+└─────────────────────────────────────────────────────────────────┘
+
+  Cuando esté listo para producción:
+  
+  1. Eliminar archivo: lib/datos-prueba.ts
+  2. Actualizar: lib/config.ts → USE_SUPABASE = true
+  3. Configurar variables de entorno de Supabase
+  4. Recompilar el proyecto
+
+
+┌─────────────────────────────────────────────────────────────────┐
+│  SOPORTE Y AYUDA                                                │
+└─────────────────────────────────────────────────────────────────┘
+
+  Si tienes problemas:
+  
+  1. Verifica que las credenciales sean correctas
+  2. Asegúrate que USE_SUPABASE = false
+  3. Revisa la consola del navegador para errores
+  4. Consulta README.md para más detalles
+
+
+╔═══════════════════════════════════════════════════════════════════╗
+║                                                                   ║
+║  ¡LISTO PARA USAR! Inicia sesión y explora el sistema.          ║
+║                                                                   ║
+╚═══════════════════════════════════════════════════════════════════╝
+
+Última actualización: Febrero 2026
